@@ -16,7 +16,7 @@ class PrintoutsEmailForm(forms.Form):
 
     class Meta:
         labels = {
-            "to": _("To"),
+            "to": _("To(enter receiver)"),
             "subject": _("Email Subject"),
             "body": _("Email Body")
         }
