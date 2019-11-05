@@ -33,7 +33,7 @@ class CartDelayConfigurationForm(forms.Form):
         required=False,
         min_value=0,
         label=_("Cart Inactivity Delay (hours)"),
-        help_text=_("Set the number of hours the cart must be inactive before it's displayed in Orders > Carts")
+        help_text=_("Set the number of hours the cart must be inactive before it's displayed in Orders > Carts------")
     )
 
 
